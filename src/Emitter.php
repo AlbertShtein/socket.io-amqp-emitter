@@ -7,10 +7,6 @@ use PhpAmqpLib\Message\AMQPMessage;
 
 define('EVENT', 2);
 
-if (!function_exists('msgpack_pack')) {
-    require(__DIR__ . '/msgpack_pack.php');
-}
-
 class Emitter
 {
     /**

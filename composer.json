@@ -20,6 +20,7 @@
     "phpunit/phpunit": ">=4.8 < 6.0"
   },
   "autoload": {
+    "files": ["src/msgpack_pack.php"],
     "psr-4": {
       "SocketIO\\": "src/",
       "Tests\\": "tests/"

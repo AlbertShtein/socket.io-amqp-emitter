@@ -3,6 +3,8 @@ socket.io-amqp-emitter
 
 A PHP amqp implementation of socket.io-emitter.
 
+PHP Library is designed for using in pair with [socket.io-amqp](https://www.npmjs.com/package/socket.io-amqp)
+
 ## Usage
 
 ### Initialization
