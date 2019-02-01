@@ -1,0 +1,31 @@
+{
+  "name": "albert-shtein/socket.io-amqp-emitter",
+  "version": "0.0.0",
+  "description": "A PHP amqp implementation of socket.io-emitter",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Albert Shtein",
+      "email": "bazhut@gmail.com"
+    }
+  ],
+  "keywords": ["socketio", "rabbitmq", "amqp", "emit"],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6",
+    "php-amqplib/php-amqplib": "^2.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.8 < 6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SocketIO\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
